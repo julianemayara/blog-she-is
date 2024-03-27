@@ -95,12 +95,10 @@ main{
 
 /* ESTILIZAÇÃO DO CONTEUDO UM E HEADER (CABEÇALHO) - IMAGEM */
 .primeira-caixa{
-    background: url(assets/img-header.jpg);
+    background: url(assets/img-header.jpg) no-repeat;
     max-width: 100%;
-    height: 90vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    height: 45vh;
+}    
 
 .header{
     margin: auto;
@@ -131,6 +129,14 @@ main{
     font-weight: 800;
 }
 
+.social-media{
+    display: flex;
+    flex-direction: row;
+
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 
 .botao-imagem{
@@ -151,10 +157,10 @@ main{
 
 /* ESTILIZAÇÃO DO CONTEUDO SEGUNDO*/
 .segunda-caixa{
-    margin: 0% 10%;
+    margin: 5% 10%;
     padding-top: 9rem;
     width: 80%;
-    gap: 9rem;
+    gap: 1rem;
 
     display: flex;
     flex-direction: row;
@@ -188,11 +194,22 @@ main{
 
 .segunda-caixa img{
     margin: 2rem 9rem 2rem 0rem;
-    width: 90%;
-    height: 20%;
+    width: 35vw;
+    height: 50vh;
 
     align-items: center;
     justify-content: center;
+}
+
+.likes{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    gap: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 
@@ -338,3 +355,26 @@ main{
     color: #fff;
 }
   
+
+
+
+
+
+
+
+
+
+ /* CAMPO DO MEDIA QUERY - RESPONSIVIDADE DO BLOG ---- 
+ @media screen (min-width: 600px){
+
+    .primeira-caixa{
+        heigth: 800vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .primeira-caixa{
+        background: url(assets/img-header.jpg);
+    }
+}*/
