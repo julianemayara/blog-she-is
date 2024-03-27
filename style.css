@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Italiana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    background: #ffffff;
+
+    align-items: center;
+    text-align: justify;
+}
+
+
+
+
+/* ESTILIZAÇÃO DA NAV - MENU DE NAVEGAÇÃO E LINKS */
+nav{
+    margin: auto;
+    display: flex;
+    max-width: 1124px;
+ 
+    padding: 0.1rem 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: italiana;
+}
+
+nav a:hover{
+    color: gray;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000000;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    color: #000000;
+    font-family: italiana;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.botao-comunidade{
+    margin: 0;
+    width:12%;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+
+    background: #000;
+    color: #fff;
+    border-radius: 5rem;
+}
+
+
+
+
+
+/* ESTILIZAÇÃO DA MAIN - CONTEUDO PRINCIPAL */
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ESTILIZAÇÃO DO CONTEUDO UM E HEADER (CABEÇALHO) - IMAGEM */
+.primeira-caixa{
+    background: url(assets/img-header.jpg);
+    max-width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    margin: auto;
+    padding: 0rem 4rem;
+
+    max-width: 1124px;
+    height: 89vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 6rem;
+    overflow: clip;
+}
+
+.header-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header-titulo{
+    color: #000;
+    font-family: glass antiqua;
+    font-size: 20rem;
+    font-weight: 800;
+}
+
+
+
+.botao-imagem{
+    margin: 1% 48%;
+    width: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.botao-imagem-2{
+    margin: 0% 0% 5% 50%;
+    width: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ESTILIZAÇÃO DO CONTEUDO SEGUNDO*/
+.segunda-caixa{
+    margin: 0% 10%;
+    padding-top: 9rem;
+    width: 80%;
+    gap: 9rem;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+}
+
+.segunda-caixa-titulo > h1{
+    color: #000000;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+
+    font-family: audiowide;
+    font-size: 4rem;
+}
+
+.segunda-caixa-subtitulo > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+    font-family: playfair display;
+    font-size: 1rem;
+    padding: 0rem 5rem;
+}
+
+.segunda-caixa img{
+    margin: 2rem 9rem 2rem 0rem;
+    width: 90%;
+    height: 20%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ESTILIZAÇÃO DO CONTEUDO TERCEIRO */
+.terceira-caixa{
+    max-width: 1124%;
+    height: 97vh;
+    margin: 1% 0%;
+    padding: 10% 10%;
+
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.terceira-caixa-tit > h1{
+    font-family: audiowide;
+    font-size: 4rem;
+    color: #ffffff;
+
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.terceira-caixa-sub > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+    font-family: playfair display;
+    font-size: 1rem;
+}
+
+
+
+
+
+/* ESTILIZAÇÃO DO CONTEUDO QUATRO */
+.caixa-quatro{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1124%;
+    height: 75vh;
+
+    margin: 1% 10% 1% 10%; /* sentido horario - cima, direita,baixo e esquerdo */
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+}
+
+
+.caixa-img > img{
+    display: flex;
+    flex-direction: row;
+    max-width: 25rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.titulo{
+    font-size: 3rem;
+    font-family: teko;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-subtitulo{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 0.9rem;
+    font-family: glass antiqua;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CODIGO DAS REDES SOCIAIS ---------------------------------- */
+
+.container {
+    width: 200px;
+    width: auto;
+    position: fixed;
+    left: 20vw;
+    top: 30vw;
+    transform: translate(-50%, -50%);
+    display: flexbox;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 187, 145);
+    border: 1px solid rgb(221, 187, 145);
+    text-decoration: none;
+    transition: background-color 250ms;
+}
+
+
+.icon:hover  {
+    background-color: #fff;
+}
+  
+.icon i {
+    font-size: 30px;
+    color: white;
+    transition: color 250ms;
+}
+
+.icon:hover i {
+    color: #fff;
+}
+  
