@@ -231,14 +231,14 @@ h1{
 /* ESTILIZAÇÃO DO CONTEUDO TERCEIRO */
 .terceira-caixa{
     max-width: 1124%;
-    height: 97vh;
-    margin: 1% 0%;
+    height: 85vh;
+    margin: auto;
     padding: 10% 10%;
 
     background-color: #000;
     display: flex;
     flex-direction: row;
-    gap: 15rem;
+    gap: 10rem;
 
     justify-content: center;
     align-items: center;
@@ -247,21 +247,18 @@ h1{
 }
 
 .terceira-caixa-tit > h1{
-    font-family: audiowide;
-    font-size: 4rem;
     color: #ffffff;
 
-    text-align: right;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    font-family: audiowide;
+    font-size: 4rem;
 }
 
 .terceira-caixa-sub > p{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
+    padding: 20%;
 
+    text-align: justify;
     font-family: playfair display;
     font-size: 1rem;
 }
