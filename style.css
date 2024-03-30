@@ -270,7 +270,7 @@ h1{
 
 
 /* ESTILIZAÇÃO DO CONTEUDO QUATRO */
-.big-box{
+.big-box-container{
     margin: 3rem 8rem;
     display: flex;
     flex-direction: column;
@@ -278,9 +278,9 @@ h1{
     text-align: center;
     align-items: center;
     justify-content: center;
-
 }
-.big-box-imgs{
+
+.big-box{
     display: flex;
     flex-direction: row;
 
@@ -296,8 +296,7 @@ h1{
     justify-content: center;
 }
 
-
-.caixa-img > img{
+.big-box-img > img{
     display: flex;
     flex-direction: row;
     max-width: 15rem;
@@ -305,14 +304,7 @@ h1{
     justify-content: center;
     border-radius: 50%;
 }
-
-.titulo{
-    font-size: 2rem;
-    font-family: italiana;
-    text-align: center;
-}
-
-.titulo-subtitulo{
+.big-box-texts{
     display: flex;
     flex-direction: column;
 
@@ -321,8 +313,14 @@ h1{
     align-items: center;
     justify-content: center;
     text-align: justify;
-
 }
+
+.big-box-title{ 
+    font-size: 2rem;
+    font-family: italiana;
+    text-align: center;
+}
+
 
 
 
