@@ -1,11 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Italiana&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 /* ACIMA SÃO OS LINKS DE IMPORTAÇÃO DAS FONTES EM QUE ESTOU USANDO NO BLOG */
 
 
@@ -17,93 +12,135 @@
 }
 body{
     box-sizing: border-box;
-    background: #ffffff;
-
-    align-items: center;
-    text-align: justify;
-    justify-content: center;
+    background: #d2cfcf4d;
 }
 
 
 
 
 /* ESTILIZAÇÃO DA NAV - MENU DE NAVEGAÇÃO E LINKS */
-nav{
-    margin: 0;
+.navegation > nav{
+    margin: auto;
     max-width: 1124px;
-    padding: 0.1rem;
 
     display: flex;
     flex-direction: row;
+    gap: 5rem;
 
-    justify-content: left;
+    font-family: italiana;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: italiana;
 }
-nav a:hover{
-    color: gray;
+.navegation a:hover{
+    color: #dbd7d7;
     box-sizing: border-box;
+    transition: 0.2s;
 }
-
-a{
-    color: #000000;
-    font-weight: 600;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-ul{
-    list-style: none;
-}
-
 .logo{
-    color: #000000;
+    display: flex;
+
     text-transform: uppercase;
-    padding: 0rem 5rem;
-
     font-family: italiana;
-    font-size: 2rem;
-    font-weight: 600;
-}
 
-.menu{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+ul{
+    margin: auto;
     display: flex;
     flex-direction: row;
-    gap: 8rem;
-}
+    gap: 4rem;
 
-.botao-comunidade{
-    margin: auto;
-    width:12%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase ;
+}
+.button{
+    width:10%;
 
     cursor: pointer;
     border: none;
-    padding: 0.5rem;
+    padding: 0.3rem;
 
     background: #000;
     color: #fff;
     border-radius: 5rem;
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: #dbd7d7;
+    color: #000;
+    transition: all 0.2s;
 }
 
+
+
+/* ESTILIZAÇÃO DAS REDES SOCIAIS */
+.container-social-media{
+    display: flex;
+    flex-direction: column;
+
+    margin: 20rem 0rem 8rem 0rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+
+    gap: 3rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.social-media a:hover{
+    cursor: pointer;
+    background-color: #00000022;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 50%;
+    padding: 0.7rem;
+    transition: 0.2s;
+}
+.paragrafo{
+    display: flex;
+    padding: 1rem;
+    font-size: 0.9rem;
+
+    font-family: glass antiqua;
+    text-align: justify;
+}
 
 
 
 
 /* ESTILIZAÇÃO DA MAIN - CONTEUDO PRINCIPAL */
 main{
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
 
 
 /* ESTILIZAÇÃO DO CONTEUDO UM E HEADER (CABEÇALHO) - IMAGEM */
-.box-one{
-    background: url(assets/img-header.jpg) no-repeat;
+.header-box-one{
+    background: url(/assets/img-header.jpg) no-repeat;
     max-width: 100%;
     height: 45vh;
 }    
-
 .header{
     margin: auto;
     padding: 0rem 4rem;
@@ -119,13 +156,11 @@ main{
     gap: 6rem;
     overflow: clip;
 }
-
 .header-conteudo{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-
 .header-titulo{
     color: #000;
     font-family: glass antiqua;
@@ -133,128 +168,81 @@ main{
     font-weight: 800;
 }
 
-.social-media{
-    display: flex;
-    flex-direction: row;
 
-    font-size: 1.5rem;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-
-.botao-imagem{
-    margin: 1% 48%;
-    width: 1.5rem;
-    align-items: center;
-    justify-content: center;
-}
-.botao-imagem-2{
-    margin: 0% 0% 5% 50%;
-    width: 1.5rem;
-    align-items: center;
-    justify-content: center;
-}
-
-h1{
-    font-size: 10rem;
-    font-family: glass antiqua;
-}
 
 
 
 /* ESTILIZAÇÃO DO CONTEUDO SEGUNDO*/
 .box-two{
-    margin: 5% 10%;
-    padding-top: 9rem;
-    width: 80%;
-    gap: 1rem;
+    margin: auto;
+    padding: 19rem 15rem 8rem 15rem;
+    max-width: 100%;
+    gap: 10rem;
 
     display: flex;
     flex-direction: row;
 
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #000000;
-}
-
-.segunda-caixa-titulo > h1{
-    color: #000000;
     text-align: justify;
     align-items: center;
     justify-content: center;
-
-    font-family: audiowide;
-    font-size: 4rem;
+    justify-items: center;
 }
-
-.segunda-caixa-subtitulo > p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-
-    font-family: playfair display;
+.box-two-text > p{
+    margin: auto;
     font-size: 1rem;
-    padding: 0rem 5rem;
-}
+    font-family: glass antiqua;
 
-.segunda-caixa img{
-    margin: 2rem 9rem 2rem 0rem;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+.box-two-title > img{
+    margin: auto;
     width: 35vw;
     height: 50vh;
 
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.likes{
-    margin: 0;
-    padding: 0;
-    font-size: 1.3rem;
+
+
+
+
+/* ESTILIZAÇÃO DO BOX- BACKGROUND PRETO */
+.box-black{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+
+    margin: auto;
+    padding: 9rem;
     gap: 1rem;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-
-
-
-
-/* ESTILIZAÇÃO DO CONTEUDO TERCEIRO */
-.box-three{
-    max-width: 1124%;
-    height: 85vh;
-    margin: auto;
-    padding: 10% 10%;
-
     background-color: #000;
-    display: flex;
-    flex-direction: row;
-    gap: 10rem;
+    color: #fff;
 
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
 }
-
-.terceira-caixa-tit > h1{
-    color: #ffffff;
-
-    text-align: left;
-    font-family: audiowide;
+.box-black-title > h1{
+    display: flex;
     font-size: 4rem;
+    
+    font-family: inter;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-
-.terceira-caixa-sub > p{
+.box-black-subtitle > p{
     display: flex;
     padding: 20%;
 
     text-align: justify;
-    font-family: playfair display;
+    font-family: glass antiqua;
     font-size: 1rem;
 }
 
