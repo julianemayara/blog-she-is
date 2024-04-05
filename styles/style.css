@@ -173,38 +173,48 @@ main{
 
 
 /* ESTILIZAÇÃO DO CONTEUDO SEGUNDO*/
-.box-two{
+.box-women{
     margin: auto;
-    padding: 19rem 15rem 8rem 15rem;
+    padding: 5rem 15rem 8rem 15rem;
     max-width: 100%;
     gap: 10rem;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     text-align: justify;
     align-items: center;
     justify-content: center;
     justify-items: center;
+
+
 }
-.box-two-text > p{
+.box-women-img{
+    margin: auto;
+
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    column-count: 5;
+    column-gap: 4rem;
+
+    
+}
+.box-women-p > p{
     margin: auto;
     font-size: 1rem;
-    font-family: glass antiqua;
+    font-family: inter;
 
     text-align: justify;
     align-items: center;
     justify-content: center;
 }
-.box-two-title > img{
-    margin: auto;
-    width: 35vw;
-    height: 50vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
@@ -214,28 +224,27 @@ main{
 .box-black{
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 75vh;
 
     margin: auto;
     padding: 9rem;
-    gap: 1rem;
+    gap: 10rem;
 
     background-color: #000;
     color: #fff;
 
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 .box-black-title > h1{
     display: flex;
-    font-size: 4rem;
+    font-size: 4.5rem;
     
-    font-family: inter;
+    font-family: inherit;
     text-transform: uppercase;
-    text-align: center;
+    text-align: right;
     justify-content: center;
-    align-items: center;
 }
 .box-black-subtitle > p{
     display: flex;
